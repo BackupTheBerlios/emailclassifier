@@ -1,0 +1,13 @@
+General text classifier
+
+(project specification)
+
+The main goal of this work is to implement a general algorithm classifying an input text into categories, constructed by a user. The category is created according to the examples of documents containing an appropriate material describing its content. It is in the competence of the user to provide such examples.
+
+The project is based on creating a library, applicable to the variety of different texts (e.g. including newspaper articles). The library should recognize given text and categorize it correctly due to its knowledge. The most essential part of the library includes way of information retrieval, considering learning from examples and testing its capability. It will be built upon the naïve Bayes classifier, a simple and quite accurate probabilistic classifier applying Bayes' theorem.
+
+Moreover, the resultant project forms an application of the library, designed to classify certain texts. The application, implemented as a plug-in project, could be usable by an open-source email client. It is developed in a way to categorize incoming mail.
+
+The code will be written in Java due to its functionality on several platforms including (Unix, Windows etc). As a developer tool, the Eclipse IDE will be used. Implementation of the algorithm will be written under the Linux Platform as a java project.
+
+ERIK LUX
